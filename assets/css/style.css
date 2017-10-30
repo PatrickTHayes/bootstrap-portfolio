@@ -1,0 +1,110 @@
+.navbar .container .navbar-brand {
+    background-color: #4aaaa5;
+    font-size: 32px;
+    color: white;
+}
+
+.nav {
+    font-size: 24px;
+}
+
+.navbar-default {
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #4aaaa5;
+}
+
+.mbcontain {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.imcontain {
+    margin: 10px;
+}
+
+.page-header {
+    color: #4aaaa5;
+    margin: 10px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-bottom-color: #eeeeee;
+}
+
+.contactheader {
+    text-align: center;
+    font-size: 34px;
+}
+
+.connectlink {
+    display: flex;
+    /*creates a flexbox default row direction and no wrap*/
+    justify-content: space-evenly;
+    /*sets spacing and mobile responsive*/
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.connectlink p {
+    vertical-align: middle;
+}
+
+.footer {
+/*position: absolute;
+    bottom: 0;*/
+    width: 100%;
+    text-align: center;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-width: 7px 0 0 0;
+    color: white;
+    border-style: solid;
+    margin-top: 80px;
+/*    padding: 15px 0;*/
+}
+
+/*.foot-holder {
+    position: relative;
+}*/
+
+.bodytext {
+    font-size: 16px;
+    clear: all;
+}
+
+
+.img-thumbnail {
+    float: left;
+    padding: 10px;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -60px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+    height: 60px
+}
+
+
+body {
+    height: 100%;
+    background-image: url("../images/cloth.png");
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom: 60px;
+}
+
+html {
+    height: 100%;
+}
